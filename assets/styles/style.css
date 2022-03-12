@@ -2,8 +2,24 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: "open-light";
 }
+
+@font-face {
+    font-family: 'open-light';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  @font-face {
+    font-family: 'open-bold';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
 
 header{
     width: 100%;
@@ -21,6 +37,7 @@ header nav::after{
 }
 
 header h2{
+    font-family: "open-bold";
     display: inline-block;
     color: white;
 
@@ -73,12 +90,10 @@ button{
     display: inline-block;   
 }
 
-.content .info div h6{
-    font-weight:lighter;
- 
-}
+
 
 .content .info div p{
+    font-family: "open-bold";
     font-size: 15px;
     font-weight: bold;
     margin-top: 10px;
@@ -96,6 +111,7 @@ button{
 }
 
 .content h1{
+    font-family: "open-bold";
     margin-top: 30px;
   font-size: 50px;
   background: -webkit-linear-gradient(left,#fb9a4c,#ff5569);
@@ -163,10 +179,6 @@ section .box .add-info{
 .card p{
     display: block;
    margin: 28px auto;
-}
-
-.card :nth-child(1){
-    
 }
 
 
